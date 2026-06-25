@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary Color: #F08080 (Light Coral) -> HSL: 0, 79%, 72% */
+    --background: 0 0% 99%;
+    --foreground: 222 47% 11%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    
+    --primary: 0 79% 72%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 222 47% 11%;
+    
+    --muted: 0 0% 96%;
+    --muted-foreground: 215 16% 47%;
+    
+    --accent: 0 79% 96%; /* Very light tint of primary */
+    --accent-foreground: 0 79% 40%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 0 79% 72%;
+    
+    --radius: 1rem;
+    --font-arabic: 'Tajawal', sans-serif;
+  }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+    
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+    
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+    
+    --primary: 0 79% 72%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 217 32% 17%;
+    --secondary-foreground: 210 40% 98%;
+    
+    --muted: 217 32% 17%;
+    --muted-foreground: 215 20.2% 65.1%;
+    
+    --accent: 217 32% 17%;
+    --accent-foreground: 210 40% 98%;
+    
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    
+    --border: 217 32% 17%;
+    --input: 217 32% 17%;
+    --ring: 0 79% 72%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-arabic);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-arabic);
+    @apply font-bold;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/80 backdrop-blur-md border-b border-white/20 shadow-lg shadow-black/5;
+  }
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl shadow-black/5;
+  }
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-[#ff9e9e];
+  }
+
+  .logo-wordmark {
+    @apply bg-clip-text font-black leading-normal tracking-normal text-transparent;
+    padding-block: 0.125rem;
+    background-image: linear-gradient(
+      105deg,
+      hsl(222 47% 11%) 0%,
+      hsl(222 40% 22%) 45%,
+      hsl(0 79% 58%) 100%
+    );
+    transition: background-image 0.4s ease, transform 0.3s ease;
+  }
+
+  .group:hover .logo-wordmark {
+    background-image: linear-gradient(
+      105deg,
+      hsl(0 79% 62%) 0%,
+      hsl(0 79% 72%) 50%,
+      hsl(12 90% 72%) 100%
+    );
+  }
+
+  .logo-wordmark-light {
+    background-image: linear-gradient(
+      105deg,
+      #ffffff 0%,
+      #fff5f5 55%,
+      hsl(0 79% 78%) 100%
+    );
+  }
+
+  .group:hover .logo-wordmark-light {
+    background-image: linear-gradient(
+      105deg,
+      #ffffff 0%,
+      hsl(0 79% 85%) 60%,
+      hsl(12 90% 75%) 100%
+    );
+  }
+}
