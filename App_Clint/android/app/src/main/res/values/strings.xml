@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Replace with your OAuth Web client ID from Google Cloud Console (for idToken). -->
+    <string name="default_web_client_id">106533226272-ohk9d2tf1lvnd9i6rnacffurtichatde.apps.googleusercontent.com</string>
+
+    <!-- Facebook — replace with values from Meta Developer Console. -->
+    <string name="facebook_app_id">885865613874970</string>
+    <string name="facebook_client_token">66d7f07404e14f9dacfa48924e819dd5</string>
+    <string name="fb_login_protocol_scheme">fb885865613874970</string>
+</resources>

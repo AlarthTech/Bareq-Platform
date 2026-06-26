@@ -1,0 +1,194 @@
+{
+  "terms": {
+    "title": "Terms & Conditions",
+    "intro": "Bareq is an electronic intermediary platform connecting customers with cleaning companies in Libya. By using the application, you agree to these Terms & Conditions.",
+    "lastUpdated": "May 2026",
+    "sections": [
+      {
+        "title": "1. Nature of the Application",
+        "paragraphs": [
+          "The application acts solely as an electronic intermediary connecting users with cleaning companies.",
+          "The company does not employ, manage, or directly supervise cleaning workers.",
+          "Cleaning companies bear full responsibility for workers including employment, training, salaries, and insurance if applicable."
+        ]
+      },
+      {
+        "title": "2. User Requirements",
+        "paragraphs": [
+          "Users must be 18 years or older.",
+          "Users must provide accurate information during registration.",
+          "The application may not be used for illegal activities or activities violating Libyan public laws and morals."
+        ]
+      },
+      {
+        "title": "3. Booking Services",
+        "paragraphs": [
+          "Cleaning companies may accept or reject bookings depending on availability and operational conditions."
+        ]
+      },
+      {
+        "title": "4. Pricing and Payments",
+        "paragraphs": [
+          "Prices are determined by cleaning companies, not by the application.",
+          "The application may add service fees if applicable.",
+          "Payments are made through available methods inside the application.",
+          "All prices are displayed in Libyan Dinars (LYD)."
+        ]
+      },
+      {
+        "title": "5. Cancellation and Modifications",
+        "paragraphs": [
+          "Users may cancel bookings before a specified time.",
+          "Late cancellations may incur fees.",
+          "Bookings may be modified depending on provider availability."
+        ]
+      },
+      {
+        "title": "6. Legal Responsibility",
+        "paragraphs": [
+          "The application is not responsible for service quality, worker behavior, or damages or losses resulting from services.",
+          "Full responsibility lies with the cleaning company.",
+          "Disputes shall be resolved directly between the user and the cleaning company."
+        ]
+      },
+      {
+        "title": "7. Obligations of Cleaning Companies",
+        "bullets": [
+          "Cleaning companies must comply with Libyan labor laws.",
+          "Ensure workers are legally eligible to work.",
+          "Assume responsibility for violations or damages.",
+          "Maintain service quality and punctuality."
+        ]
+      },
+      {
+        "title": "8. User Obligations",
+        "bullets": [
+          "Provide a safe work environment.",
+          "Respect workers and avoid abuse.",
+          "Pay fees on time.",
+          "Avoid requesting illegal or unauthorized services."
+        ]
+      },
+      {
+        "title": "9. Privacy and Data Protection",
+        "paragraphs": [
+          "User data is collected solely for service provision.",
+          "Data may only be shared with cleaning companies or official authorities if legally required.",
+          "The application will protect user data according to Libyan regulations."
+        ]
+      },
+      {
+        "title": "10. Disclaimer",
+        "bullets": [
+          "Services are provided \"as is\" without guarantees.",
+          "The application does not guarantee uninterrupted service.",
+          "The application is not responsible for technical failures or outages."
+        ]
+      },
+      {
+        "title": "11. Account Suspension",
+        "paragraphs": [
+          "The company may suspend accounts for violating terms or abuse or misuse.",
+          "Users may delete their accounts at any time."
+        ]
+      },
+      {
+        "title": "12. Modifications",
+        "paragraphs": [
+          "The company may update Terms & Conditions at any time.",
+          "Users will be notified through the application."
+        ]
+      },
+      {
+        "title": "13. Governing Law",
+        "paragraphs": [
+          "These Terms are governed by Libyan law.",
+          "Libyan courts shall have jurisdiction over disputes."
+        ]
+      },
+      {
+        "title": "14. Contact",
+        "paragraphs": [
+          "Users may contact the application through email or customer support inside the app."
+        ]
+      },
+      {
+        "title": "15. Acceptance",
+        "paragraphs": [
+          "By using the application, users agree to all Terms & Conditions."
+        ]
+      }
+    ],
+    "acceptance": "By using Bareq, you agree to these Terms & Conditions."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "Bareq is committed to protecting user privacy and keeping information confidential in accordance with applicable laws in Libya.",
+    "lastUpdated": "May 2026",
+    "sections": [
+      {
+        "title": "1. Introduction",
+        "paragraphs": [
+          "By using the application, you agree to this Privacy Policy."
+        ]
+      },
+      {
+        "title": "2. Use of Information",
+        "bullets": [
+          "Executing and managing service requests",
+          "Communicating with users and service providers",
+          "Improving service and application quality",
+          "Handling complaints and technical support",
+          "Sending notifications related to bookings or updates"
+        ]
+      },
+      {
+        "title": "3. Sharing Information",
+        "paragraphs": [
+          "User data is not sold or rented to third parties.",
+          "Data may only be shared with registered cleaning companies to fulfill services, or competent authorities when legally required."
+        ]
+      },
+      {
+        "title": "4. Data Retention",
+        "paragraphs": [
+          "Data is retained as long as necessary to provide services or as required by law.",
+          "Users may request account deletion according to in-app policies."
+        ]
+      },
+      {
+        "title": "5. User Rights",
+        "bullets": [
+          "Access personal data",
+          "Request correction of inaccurate data",
+          "Request account deletion when desired"
+        ]
+      },
+      {
+        "title": "6. Policy Changes",
+        "paragraphs": [
+          "The application may update this policy at any time. Users may be notified through the app or available channels."
+        ]
+      },
+      {
+        "title": "7. Governing Law",
+        "paragraphs": [
+          "This policy is governed by the laws of Libya. Libyan courts have jurisdiction over related disputes."
+        ]
+      },
+      {
+        "title": "8. Contact",
+        "paragraphs": [
+          "For privacy inquiries, contact us through channels available in the application."
+        ]
+      },
+      {
+        "title": "9. Consent",
+        "paragraphs": [
+          "By using the application, you acknowledge your agreement to this Privacy Policy."
+        ]
+      }
+    ],
+    "acceptance": "By using Bareq, you agree to this Privacy Policy."
+  }
+}

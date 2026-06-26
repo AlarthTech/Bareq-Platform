@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- API base is plain HTTP (see lib/core/network/api_endpoints.dart). -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">102.203.200.55</domain>
+    </domain-config>
+</network-security-config>
