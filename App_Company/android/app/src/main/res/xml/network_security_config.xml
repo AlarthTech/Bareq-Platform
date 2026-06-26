@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- API is HTTP (cleartext); required for physical devices on release builds. -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">102.203.200.55</domain>
+    </domain-config>
+</network-security-config>
