@@ -1,0 +1,22 @@
+[Unit]
+Description=CleaningHouse API (.NET 9)
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/var/www/cleaninghouse-api
+ExecStart=/var/www/cleaninghouse-api/CleaningHouse_API
+Restart=always
+RestartSec=10
+# Listen port (override if needed)
+Environment=ASPNETCORE_ENVIRONMENT=Production
+Environment=ASPNETCORE_URLS=http://0.0.0.0:5545
+Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
+# Set secrets on the server (do not commit real values):
+#   Environment=ConnectionStrings__DefaultConnection=...
+#   Environment=JwtSettings__SecretKey=...   (min 32 chars)
+#   Environment=AllowedOrigins__0=https://your-app.com
+# Or use: EnvironmentFile=/etc/cleaninghouse-api.env
+
+[Install]
+WantedBy=multi-user.target
